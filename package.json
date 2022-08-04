@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "install-squelette": "git remote add squelette https://github.com/yvanross/log210-squelette.git || true && git checkout -b squelette squelette/main || true && git checkout squelette && git pull && git checkout main && git checkout squelette docs public src test views",
+        "install-squelette": "git remote add squelette https://github.com/yvanross/log210-squelette.git || true && git fetch squelette && git checkout -b squelette squelette/main || true && git checkout squelette && git pull && git checkout main && git checkout squelette docs public src test views",
         "build": "tsc -b --verbose && shx --verbose cp -ru public dist/",
         "start": "node dist/index.js",
         "bs": "npm run build && open http://localhost:3000 && npm run start",
@@ -12,7 +12,7 @@
         "bsw": "npm run build && open http://localhost:3000  && npm run start:watch",
         "watch": "jest --watch --coverage",
         "test-sgbmock": "jest --colors --coverage \"test/sgbmock\"",
-        "test-all": "jest --colors --coverage",
+        "test": "jest --colors --coverage",
         "test-squelette": "jest --colors --coverage \"test/squelette\"",
         "uml-classes-puml": "tplant -i src/app.ts -A -o docs/modeles/App.puml",
         "uml-classes-svg": "tplant -i src/app.ts -A -o docs/modeles/App.svg",
