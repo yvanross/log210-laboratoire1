@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="236px" preserveAspectRatio="none" style="width:530px;height:236px;background:#FFFFFF;" version="1.1" viewBox="0 0 530 236" width="530px" zoomAndPan="magnify"><defs/><g><rect height="26.2969" id="_title" style="stroke:#00000000;stroke-width:1.0;fill:none;" width="512" x="5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="502" x="10" y="22.9951">Modèle du domaine (adapté du Jeu de dés du Ch. 1 de Larman)</text><!--MD5=[f35b8d93951ba498799a84be5600c0ca]
+class Joueur--><g id="elem_Joueur"><rect codeLine="6" fill="#F1F1F1" height="83.1875" id="Joueur" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="176" x="94" y="44.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="160" y="62.292">Joueur</text><line style="stroke:#181818;stroke-width:0.5;" x1="95" x2="269" y1="70.5938" y2="70.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="89" x="100" y="87.5889">nom : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="100" y="103.8857">nbParties : int</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="164" x="100" y="120.1826">nbPartiesGagnées : int</text></g><!--MD5=[18e074f27103afc71028bba2a4f1683f]
+class Dé--><g id="elem_Dé"><rect codeLine="11" fill="#F1F1F1" height="50.5938" id="Dé" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="88" x="354" y="60.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="20" x="388" y="78.292">Dé</text><line style="stroke:#181818;stroke-width:0.5;" x1="355" x2="441" y1="86.5938" y2="86.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="360" y="103.5889">valeur : int</text></g><!--MD5=[3f82ddbf4ff68524ab2929a496fcdbe9]
+class JeuDeDés--><g id="elem_JeuDeDés"><rect codeLine="14" fill="#F1F1F1" height="26.2969" id="JeuDeDés" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="74" x="269" y="204.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="272" y="222.292">JeuDeDés</text></g><!--MD5=[f60057b94b182f3a4502b6b5e8b52e66]
+link Joueur to JeuDeDés--><g id="link_Joueur_JeuDeDés"><path codeLine="16" d="M220.894,127.4159 C246.321,153.9712 277.799,186.8451 294.434,204.2184 " fill="none" id="Joueur-JeuDeDés" style="stroke:#808080;stroke-width:2.0;"/><polygon fill="#000000" points="271.458,169.4747,267.3252,160.909,263.0797,164.9742,271.458,169.4747" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="27" x="277" y="170.3638">joue</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="219.7561" y="147.6136">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="280.3049" y="193.1502">1</text></g><!--MD5=[cb58dba901e7893bc780f14db630dd50]
+link Joueur to Dé--><g id="link_Joueur_Dé"><path codeLine="17" d="M270.167,85.7969 C298.98,85.7969 329.744,85.7969 353.87,85.7969 " fill="none" id="Joueur-Dé" style="stroke:#808080;stroke-width:2.0;"/><polygon fill="#000000" points="297.5,74.3633,288.4549,71.4244,288.4549,77.3022,297.5,74.3633" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="34" x="301.5" y="78.8638">lance</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="278.0876" y="82.2169">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="337.8985" y="81.6662">2</text></g><!--MD5=[fe1088a3e65567ea12c8315f3fcbe6b1]
+link Dé to JeuDeDés--><g id="link_Dé_JeuDeDés"><path codeLine="18" d="M380.479,111.4599 C360.772,139.1993 329.568,183.1221 314.585,204.2129 " fill="none" id="Dé-JeuDeDés" style="stroke:#808080;stroke-width:2.0;"/><polygon fill="#000000" points="353.8958,161.7872,346.2614,167.4588,351.0532,170.863,353.8958,161.7872" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="34" x="360" y="170.3638">inclut</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="367.7713" y="130.8401">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="308.3903" y="193.1425">1</text></g><!--MD5=[03fd1497c1f27070517242f2d1550894]
+@startuml
+skinparam style strictuml
+skinparam ArrowThickness 2
+skinparam ArrowColor #gray
+hide empty members
+title Modèle du domaine (adapté du Jeu de dés du Ch. 1 de Larman)
+class Joueur {
+  nom : String
+  nbParties : int
+  nbPartiesGagnées : int
+}
+class Dé {
+  valeur : int
+}
+class JeuDeDés
+' associations
+Joueur "*" -down- "1" JeuDeDés : joue >
+Joueur "1" -right- "2" Dé : lance >
+JeuDeDés "1" -up- "2" Dé : inclut >
+@enduml
+
+@startuml
+skinparam style strictuml
+skinparam ArrowThickness 2
+skinparam ArrowColor #gray
+hide empty members
+title Modèle du domaine (adapté du Jeu de dés du Ch. 1 de Larman)
+class Joueur {
+  nom : String
+  nbParties : int
+  nbPartiesGagnées : int
+}
+class Dé {
+  valeur : int
+}
+class JeuDeDés
+Joueur "*" -down- "1" JeuDeDés : joue >
+Joueur "1" -right- "2" Dé : lance >
+JeuDeDés "1" -up- "2" Dé : inclut >
+@enduml
+
+PlantUML version 1.2022.7beta2(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

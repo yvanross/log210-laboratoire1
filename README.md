@@ -28,7 +28,7 @@ Notez que la logique du routeur (web) est simple :
 
 ### Squelette pour commencer le SGA
 
-En plus du [squelette][projet-squelette] de démarrage de projet pour Node.js, des [exemples de code supplémentaires](https://github.com/profcfuhrmanets/exemples-ts) pour vous aider dans votre projet sont aussi disponibles.
+En plus du [squelette](docs/squelette.md) de démarrage de projet pour Node.js, des [exemples de code supplémentaires](https://github.com/profcfuhrmanets/exemples-ts) pour vous aider dans votre projet sont aussi disponibles.
 
 > Les solutions impliquant les langages et technologies autres que ceux dans le squelette ne sont pas permises.
 
@@ -47,13 +47,13 @@ SGB est une application ayant son propre modèle du domaine (comprenant les conc
 <summary><b>Cliquez ici pour voir les détails sur le MDD du SGB</b></summary>
 
 [Fichier source en PlantUML](https://raw.github.com/profcfuhrmanets/log210-enonce-lab1/main/modeles/mdd_sgb_sga.puml)
-![Modèle du domaine pour SGB avec liens au MDD de SGA](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.github.com/profcfuhrmanets/log210-enonce-lab1/main/modeles/mdd_sgb_sga.puml)
+![Modèle du domaine pour SGB avec liens au MDD de SGA](docs/modeles/mdd_sgb_sga.svg)
 
 </details>
 
 Veuillez noter que l'implémentation proposée de ce système n'a aucun mécanisme de persistance des données. Il possède une interface de configuration permettant de nettoyer le contenu correspondant aux notes.
 
-L'API de SGB est disponible avec [le code source][projet-sgb].
+L'API de SGB est disponible avec [le code source](https://github.com/yvanross/log210-systeme-gestion-bordereau-node-express-ts).
 Lisez le README.md de SGB pour savoir comment générer cette documentation.
 
 ## Travail d'équipe

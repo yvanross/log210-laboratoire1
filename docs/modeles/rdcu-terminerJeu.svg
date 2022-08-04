@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="187px" preserveAspectRatio="none" style="width:383px;height:187px;background:#FFFFFF;" version="1.1" viewBox="0 0 383 187" width="383px" zoomAndPan="magnify"><defs/><g><rect height="26.2969" id="_title" style="stroke:#00000000;stroke-width:1.0;fill:none;" width="194" x="95.75" y="10"/><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="184" x="100.75" y="27.9951">RDCU pour terminerJeu</text><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="137.5" x2="137.5" y1="89.8906" y2="180.1563"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="270.5" x2="270.5" y1="89.8906" y2="180.1563"/><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="87" x="94.5" y="58.5938"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="73" x="101.5" y="78.5889">:JeuDeDes</text><rect fill="#E2E2F0" height="46.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="158" x="191.5" y="42.2969"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="56" x="242.5" y="62.292">joueurs:</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="144" x="198.5" y="78.5889">Map&lt;String,Joueur&gt;</text><polygon fill="#181818" points="126,120.0234,136,124.0234,126,128.0234" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="0" x2="132" y1="124.0234" y2="124.0234"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="114" x="7" y="118.9575">terminerJeu(nom)</text><path d="M143,104.8906 L143,129.8906 L256,129.8906 L256,114.8906 L246,104.8906 L143,104.8906 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M246,104.8906 L246,114.8906 L256,114.8906 L246,104.8906 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="92" x="149" y="121.9575">par Contrôleur</text><polygon fill="#181818" points="258.5,155.1563,268.5,159.1563,258.5,163.1563" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="138" x2="264.5" y1="159.1563" y2="159.1563"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="79" x="145" y="154.0903">delete(nom)</text><path d="M275,140.0234 L275,165.0234 L376,165.0234 L376,150.0234 L366,140.0234 L275,140.0234 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M366,140.0234 L366,150.0234 L376,150.0234 L366,140.0234 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="80" x="281" y="157.0903">selon Expert</text><!--MD5=[b3e7de27c112508933868073d7a3fe81]
+@startuml
+skinparam style strictuml
+skinparam defaultfontname Verdana
+title RDCU pour terminerJeu
+participant ":JeuDeDes" as c
+participant "joueurs:\nMap<String,Joueur>" as jm
+->c : terminerJeu(nom)
+note right : par Contrôleur
+c->jm : delete(nom)
+note right : selon Expert
+@enduml
+
+PlantUML version 1.2022.7beta2(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

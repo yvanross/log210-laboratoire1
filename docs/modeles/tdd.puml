@@ -1,0 +1,21 @@
+@startuml
+hide empty description
+skinparam style strictuml
+skinparam StateBorderColor black
+skinparam StateFontColor white
+skinparam StateFontStyle bold
+skinparam StateFontSize 16
+skinparam StateArrowFontSize 16
+skinparam DefaultFontName "Segoe UI Black"
+
+title États du TDD\n(Développement piloté par les tests,\nanglais: Test-driven development)\n
+
+state Rouge as "Au moins\nun test\néchoue" #red
+state Vert as "Tous\nles tests\npassent" #green
+state PasTDD as "<color red>Pas TDD\n<color red><size:48><&thumb-down></color>" #yellow
+[*] -right-> Rouge : Créer\nnouveau\ntest
+Rouge -r-> Vert : Écrire code\npour faire\npasser test(s)
+Vert -l-> Rouge : \nCréer\nnouveau\ntest
+Vert -> Vert : <back:lightblue>Refactoriser</back>
+Vert -->  PasTDD : Écrire code sans test
+@enduml

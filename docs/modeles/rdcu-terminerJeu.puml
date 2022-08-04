@@ -1,0 +1,11 @@
+@startuml
+skinparam style strictuml
+skinparam defaultfontname Verdana
+title RDCU pour terminerJeu
+participant ":JeuDeDes" as c
+participant "joueurs:\nMap<String,Joueur>" as jm
+->c : terminerJeu(nom)
+note right : par Contrôleur
+c->jm : delete(nom)
+note right : selon Expert
+@enduml

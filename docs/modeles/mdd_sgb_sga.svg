@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="896px" preserveAspectRatio="none" style="width:924px;height:896px;background:#FFFFFF;" version="1.1" viewBox="0 0 924 896" width="924px" zoomAndPan="magnify"><defs/><g><rect height="26.2969" id="_title" style="stroke:#00000000;stroke-width:1.0;fill:none;" width="166" x="372" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="156" x="377" y="22.9951">Modèle du domaine</text><!--MD5=[a7e36d4aa44b43fc8fb02c9c2fa0b819]
+cluster SGB--><g id="cluster_SGB"><path d="M8.5,43.2969 L42.5,43.2969 A3.75,3.75 0 0 1 45,45.7969 L52,65.5938 L468.5,65.5938 A2.5,2.5 0 0 1 471,68.0938 L471,886.7969 A2.5,2.5 0 0 1 468.5,889.2969 L8.5,889.2969 A2.5,2.5 0 0 1 6,886.7969 L6,45.7969 A2.5,2.5 0 0 1 8.5,43.2969 " style="stroke:#000000;stroke-width:1.5;fill:none;"/><line style="stroke:#000000;stroke-width:1.5;fill:none;" x1="6" x2="52" y1="65.5938" y2="65.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="33" x="10" y="58.292">SGB</text></g><!--MD5=[b72d85ecf124ab8e7e9b42ea86690e20]
+cluster SGA--><g id="cluster_SGA"><path d="M497.5,43.2969 L531.5,43.2969 A3.75,3.75 0 0 1 534,45.7969 L541,65.5938 L914.5,65.5938 A2.5,2.5 0 0 1 917,68.0938 L917,450.2969 A2.5,2.5 0 0 1 914.5,452.7969 L497.5,452.7969 A2.5,2.5 0 0 1 495,450.2969 L495,45.7969 A2.5,2.5 0 0 1 497.5,43.2969 " style="stroke:#000000;stroke-width:1.5;fill:none;"/><line style="stroke:#000000;stroke-width:1.5;fill:none;" x1="495" x2="541" y1="65.5938" y2="65.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="33" x="499" y="58.292">SGA</text></g><!--MD5=[64dca1f8d25645e316b7620b91da6f13]
+class U--><g id="elem_U"><rect codeLine="14" fill="#DDFFDD" height="26.2969" id="U" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="78" x="202" y="78.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72" x="205" y="96.292">Université</text></g><!--MD5=[11aee42e7bda610f1ae7beec836b5cfb]
+class En--><g id="elem_En"><rect codeLine="15" fill="#DDFFDD" height="83.1875" id="En" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="122" x="22" y="262.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="43" y="280.292">Enseignant</text><line style="stroke:#181818;stroke-width:0.5;" x1="23" x2="143" y1="288.5938" y2="288.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="28" y="305.5889">prénom: String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="85" x="28" y="321.8857">nom: String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="28" y="338.1826">courriel: String</text></g><!--MD5=[1f86859a96bc421b24d0e08f032e03fd]
+class Et--><g id="elem_Et"><rect codeLine="20" fill="#DDFFDD" height="99.4844" id="Et" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="184" x="149" y="254.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="210.5" y="272.292">Étudiant</text><line style="stroke:#181818;stroke-width:0.5;" x1="150" x2="332" y1="280.5938" y2="280.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="172" x="155" y="297.5889">codePermanent : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="155" y="313.8857">prénom: String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="85" x="155" y="330.1826">nom: String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="155" y="346.4795">courriel: String</text></g><!--MD5=[f6edf60997924e693a9a5571eb281b8c]
+class Cours--><g id="elem_Cours"><rect codeLine="26" fill="#DDFFDD" height="66.8906" id="Cours" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="102" x="353" y="383.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="40" x="384" y="401.292">Cours</text><line style="stroke:#181818;stroke-width:0.5;" x1="354" x2="454" y1="409.5938" y2="409.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="90" x="359" y="426.5889">sigle : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="90" x="359" y="442.8857">titre : String</text></g><!--MD5=[63c8a86559697f2113f14d70f80cad38]
+class CatalogueCours--><g id="elem_CatalogueCours"><rect codeLine="30" fill="#DDFFDD" height="42.5938" id="CatalogueCours" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="78" x="325" y="181.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72" x="328" y="199.292">Catalogue</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="40" x="344" y="215.5889">Cours</text></g><!--MD5=[7e8a06de9db6c7c3e9d5d933905eec0c]
+class GC--><g id="elem_GC"><rect codeLine="31" fill="#DDFFDD" height="83.1875" id="GC" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="215" x="131.5" y="527.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="53" x="212.5" y="545.292">Groupe</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="40" x="219" y="561.5889">Cours</text><line style="stroke:#181818;stroke-width:0.5;" x1="132.5" x2="345.5" y1="569.8906" y2="569.8906"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="203" x="137.5" y="586.8857">limiteNbInscriptions : Entier</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="123" x="137.5" y="603.1826">idGroupe : String</text></g><!--MD5=[f4fe35fa4f71ef5c3348dee6384cda17]
+class Bord--><g id="elem_Bord"><rect codeLine="35" fill="#DDFFDD" height="26.2969" id="Bord" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="80" x="199" y="687.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="202" y="705.292">Bordereau</text></g><!--MD5=[07dd2d76cd674e78b5bb3725a6ad4fd8]
+class Éval--><g id="elem_Éval"><rect codeLine="36" fill="#DDFFDD" height="83.1875" id="Éval" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="114" x="182" y="790.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="202" y="808.292">Évaluation</text><line style="stroke:#181818;stroke-width:0.5;" x1="183" x2="295" y1="816.5938" y2="816.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="188" y="833.5889">type: String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="188" y="849.8857">idType: Entier</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="188" y="866.1826">note: Float</text></g><!--MD5=[73b5753208beca7b953e8b26133b0763]
+class CoursSGA--><g id="elem_CoursSGA"><rect codeLine="57" fill="#F1F1F1" height="26.2969" id="CoursSGA" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="169" x="511.5" y="403.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="163" x="514.5" y="421.792">DéterminezUnBonNom</text></g><g id="elem_GMN20387"><path d="M715.5,396.7969 L715.5,437.0625 L900.5,437.0625 L900.5,406.7969 L890.5,396.7969 L715.5,396.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M890.5,396.7969 L890.5,406.7969 L900.5,406.7969 L890.5,396.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="164" x="721.5" y="413.8638">Cette classe conceptuelle</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="142" x="721.5" y="428.9966">est le Cours dans SGA</text></g><!--MD5=[b203f6b098b8dffe494a95d9c500f8e2]
+class X--><g id="elem_X"><rect codeLine="63" fill="#F1F1F1" height="26.2969" id="X" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="37" x="577.5" y="189.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="7" x="592.5" y="207.792">?</text></g><!--MD5=[1904c273551b1d3cd5b432df5b70c153]
+class Y--><g id="elem_Y"><rect codeLine="64" fill="#F1F1F1" height="26.2969" id="Y" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="37" x="577.5" y="78.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="7" x="592.5" y="96.292">?</text></g><!--MD5=[947c2c17ae3a0f702947647850c9fa47]
+link U to CatalogueCours--><g id="link_U_CatalogueCours"><path codeLine="44" d="M262.486,104.3789 C275.421,112.1309 291.872,122.8609 305,134.2969 C321.313,148.5069 337.305,167.1859 348.516,181.2919 " fill="none" id="U-CatalogueCours" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="329.7275,146.1958,324.9432,137.9762,321.0256,142.3582,329.7275,146.1958" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="33" x="335" y="147.3638">Offre</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="261.699" y="124.902">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="335.0361" y="170.2769">1</text></g><!--MD5=[54546d553066e8d1168a2639506a67b5]
+link U to Et--><g id="link_U_Et"><path codeLine="45" d="M241,104.5239 C241,133.0419 241,205.2449 241,254.1829 " fill="none" id="U-Et" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="246,147.8633,248.9389,138.8182,243.0611,138.8182,246,147.8633" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="41" x="255" y="147.3638">Forme</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="231.425" y="124.7197">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="216.3828" y="243.1934">1..*</text></g><!--MD5=[94666fe97675ee64f74dc56d2a715d47]
+link U to En--><g id="link_U_En"><path codeLine="46" d="M210.859,104.3689 C196.215,111.3969 179.193,121.4299 167,134.2969 C132.151,171.0729 108.708,225.0859 95.635,261.9819 " fill="none" id="U-En" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="169.0492,146.8997,176.7598,141.3322,172.0147,137.8633,169.0492,146.8997" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="51" x="181" y="147.3638">Emploie</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="188.7758" y="124.8879">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="72.8154" y="251.1848">1..*</text></g><!--MD5=[caa7d714cd4e4959b4291618de060d69]
+link CatalogueCours to Cours--><g id="link_CatalogueCours_Cours"><path codeLine="47" d="M367.908,224.5099 C374.867,261.3929 389.457,338.7169 397.798,382.9279 " fill="none" id="CatalogueCours-Cours" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="398.927,308.7766,400.138,299.3434,394.362,300.4332,398.927,308.7766" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="67" x="407" y="308.3638">Répertorie</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="359.8844" y="244.1317">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="371.4236" y="372.1319">1..*</text></g><!--MD5=[def26fddbb60b62e15501a3a14e94bda]
+link Cours to GC--><g id="link_Cours_GC"><path codeLine="48" d="M368.197,450.3449 C343.365,472.9199 310.116,503.1459 283.566,527.2819 " fill="none" id="Cours-GC" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="333.3003,492.2266,341.9701,488.3169,338.0162,483.9676,333.3003,492.2266" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="38" x="346" y="493.3638">Décrit</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="352.6096" y="470.2596">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="266.0426" y="516.2261">1..*</text></g><!--MD5=[5768d7a77065bdf161a99faf64c142e1]
+link En to GC--><g id="link_En_GC"><path codeLine="49" d="M98.367,345.5959 C111.281,377.9009 131.244,423.6149 154,460.7969 C168.18,483.9669 186.68,507.8149 202.798,527.1009 " fill="none" id="En-GC" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="161.4935,421.1971,159.5301,411.8915,154.4353,414.8228,161.4935,421.1971" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="58" x="168" y="421.3638">Enseigne</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="92.1786" y="365.5154">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="189.4705" y="516.3228">*</text></g><!--MD5=[8ece6ff2b1dad5e4be8af729204eafa2]
+link Et to GC--><g id="link_Et_GC"><path codeLine="50" d="M236.708,353.3389 C235.996,363.2429 235.37,373.5999 235,383.2969 C233.112,432.7609 234.96,489.7209 236.722,527.1129 " fill="none" id="Et-GC" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="240.0004,421.8633,242.9386,412.818,237.0607,412.8184,240.0004,421.8633" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="85" x="249" y="421.3638">S'inscrit-dans</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="211.3886" y="373.758">1..*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="211.5261" y="516.3367">1..*</text></g><!--MD5=[f5b1a57efb65a2a3f7efac0960afd6b2]
+link GC to Bord--><g id="link_GC_Bord"><path codeLine="51" d="M239,610.4159 C239,636.9709 239,669.8449 239,687.2179 " fill="none" id="GC-Bord" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="244,643.8633,241.0611,652.9084,246.9389,652.9084,244,643.8633" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="180" x="253" y="653.3638">Répertorie-evaluations-pour</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="230.3375" y="630.6136">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="229.425" y="676.1495">1</text></g><!--MD5=[cda13fa18c7759f35d560be65dca4e37]
+link Bord to Éval--><g id="link_Bord_Éval"><path codeLine="52" d="M239,713.7139 C239,731.1869 239,763.8439 239,790.2389 " fill="none" id="Bord-Éval" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="244,756.8633,246.9389,747.8182,241.0611,747.8182,244,756.8633" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="62" x="253" y="756.3638">Journalise</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="229.475" y="733.7241">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="231.4203" y="779.176">*</text></g><!--MD5=[74cc49caa5e4c1fbc209371c877ba8f9]
+link CoursSGA to GMN20387--><g id="link_CoursSGA_GMN20387"><path d="M680.883,416.7969 C692.303,416.7969 703.724,416.7969 715.145,416.7969 " fill="none" id="CoursSGA-GMN20387" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[bdec5e65f09923fc89b709bfefd9dd1a]
+link CoursSGA to GC--><g id="link_CoursSGA_GC"><path codeLine="65" d="M567.389,429.8189 C517.751,450.6749 413.539,494.4609 335.749,527.1459 " fill="none" id="CoursSGA-GC" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="439.3904,490.8001,448.8677,490.0058,446.5908,484.5869,439.3904,490.8001" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="203" x="453" y="493.3638">Est-un-support-des-activités-du</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="24" x="526.637" y="450.3173">0..1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="342.5309" y="516.375">1</text></g><!--MD5=[86265534e7264420a1d6cc4594d109c8]
+link Y to X--><g id="link_Y_X"><path codeLine="66" d="M596,104.4339 C596,125.4819 596,168.5199 596,189.6059 " fill="none" id="Y-X" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="601,137.8633,598.0611,146.9084,603.9389,146.9084,601,137.8633" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-style="italic" lengthAdjust="spacing" textLength="38" x="610" y="147.3638">Verbe</text></g><!--MD5=[ab84926fd45bb7c460c9169bfc4a96ed]
+link X to CoursSGA--><g id="link_X_CoursSGA"><path codeLine="67" d="M596,215.8019 C596,253.0289 596,366.2559 596,403.6599 " fill="none" id="X-CoursSGA" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="601,308.8633,603.9389,299.8182,598.0611,299.8182,601,308.8633" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-style="italic" lengthAdjust="spacing" textLength="38" x="610" y="308.3638">Verbe</text></g><!--MD5=[4b9e7e3ef6e07482fae79c695c17cd8f]
+@startuml
+skinparam style strictuml
+'skinparam backgroundcolor transparent
+hide methods
+hide empty members
+'left to right direction
+title Modèle du domaine
+
+skinparam class {
+  BackgroundColor<< SGB >> #ddffdd
+}
+hide stereotype
+
+package SGB {
+  class "Université" as U << SGB >> {}
+  class "Enseignant" as En << SGB >> {
+    prénom: String
+    nom: String
+    courriel: String
+  }
+  class "Étudiant" as Et << SGB >> {
+    codePermanent : String
+    prénom: String
+    nom: String
+    courriel: String
+  }
+  class "Cours" as Cours << SGB >> {
+    sigle : String
+    titre : String
+  }
+  class "Catalogue\nCours" as CatalogueCours << SGB >> {}
+  class "Groupe\nCours" as GC << SGB >> {
+    limiteNbInscriptions : Entier
+    idGroupe : String
+  }
+  class "Bordereau" as Bord << SGB >> {}
+  class "Évaluation" as Éval << SGB >> {
+    type: String
+    idType: Entier
+    note: Float
+  }
+}
+
+
+U "1" - - "1" CatalogueCours : Offre >
+U "1" - - "1..*" Et : Forme >
+U "1" - - "1..*" En : Emploie >
+CatalogueCours "1" - - "1..*" Cours : Répertorie >
+Cours "1" - - "1..*" GC : Décrit >
+En "1" - - "*" GC : Enseigne >
+Et "1..*" - - "1..*" GC : S'inscrit-dans >
+GC "1" - - "1" Bord : Répertorie-evaluations-pour <
+Bord "1" - - "*" Éval : Journalise >
+
+' début de SGA
+package SGA {
+  ' Le concept de "Cours" dans SGA n'est pas un groupe-cours
+  class "//DéterminezUnBonNom//" as CoursSGA
+  note right
+    Cette classe conceptuelle
+    est le Cours dans SGA
+  end note
+  ' d'autres classes conceptuelles pour SGA
+  class "   ?   " as X
+  class "   ?   " as Y
+  CoursSGA "0..1" - - "1" GC : Est-un-support-des-activités-du >
+  X -u- Y : //Verbe// >
+  CoursSGA -u- X : //Verbe// <
+}
+@enduml
+
+@startuml
+skinparam style strictuml
+hide methods
+hide empty members
+title Modèle du domaine
+
+skinparam class {
+  BackgroundColor<< SGB >> #ddffdd
+}
+hide stereotype
+
+package SGB {
+  class "Université" as U << SGB >> {}
+  class "Enseignant" as En << SGB >> {
+    prénom: String
+    nom: String
+    courriel: String
+  }
+  class "Étudiant" as Et << SGB >> {
+    codePermanent : String
+    prénom: String
+    nom: String
+    courriel: String
+  }
+  class "Cours" as Cours << SGB >> {
+    sigle : String
+    titre : String
+  }
+  class "Catalogue\nCours" as CatalogueCours << SGB >> {}
+  class "Groupe\nCours" as GC << SGB >> {
+    limiteNbInscriptions : Entier
+    idGroupe : String
+  }
+  class "Bordereau" as Bord << SGB >> {}
+  class "Évaluation" as Éval << SGB >> {
+    type: String
+    idType: Entier
+    note: Float
+  }
+}
+
+
+U "1" - - "1" CatalogueCours : Offre >
+U "1" - - "1..*" Et : Forme >
+U "1" - - "1..*" En : Emploie >
+CatalogueCours "1" - - "1..*" Cours : Répertorie >
+Cours "1" - - "1..*" GC : Décrit >
+En "1" - - "*" GC : Enseigne >
+Et "1..*" - - "1..*" GC : S'inscrit-dans >
+GC "1" - - "1" Bord : Répertorie-evaluations-pour <
+Bord "1" - - "*" Éval : Journalise >
+
+package SGA {
+  class "//DéterminezUnBonNom//" as CoursSGA
+  note right
+    Cette classe conceptuelle
+    est le Cours dans SGA
+  end note
+  class "   ?   " as X
+  class "   ?   " as Y
+  CoursSGA "0..1" - - "1" GC : Est-un-support-des-activités-du >
+  X -u- Y : //Verbe// >
+  CoursSGA -u- X : //Verbe// <
+}
+@enduml
+
+PlantUML version 1.2022.7beta2(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
