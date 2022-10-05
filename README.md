@@ -264,8 +264,8 @@ Ici vous trouverez des liens rapides vers les documents et éléments importants
 
 ### Gabarits
 
-- [Gabarit de plan d'itération][gabarit-plan-iteration]
-- [Gabarit de rapport][gabarit-rapport]
+- [Gabarit de plan d'itération](rapports/gabarit/plan-iteration-gabarit.md)
+- [Gabarit de rapport](rapports/gabarit/RAPPORT-iteration-i.md)
 
 ### Grilles de correction
 
