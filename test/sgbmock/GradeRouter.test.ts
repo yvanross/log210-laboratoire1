@@ -4,13 +4,12 @@ import SgbMock from './SgbMock';
 
 chai.use(chaiHttp);
 const expect = chai.expect;
-const should = chai.should();
 
 describe("GradeRouterTest", () => {
   let sgbMock: SgbMock;
 
   beforeEach(async () => {
-    sgbMock = new SgbMock("http://localhost:3000");
+    sgbMock = new SgbMock();
   });
 
   it('GradeRouterTest insert grade', async () => {
