@@ -4,6 +4,7 @@
     "module": "commonjs",
     "outDir": "dist",
     "esModuleInterop": true,
+    "resolveJsonModule": true,
     "sourceMap": true,
     "incremental": true,
     "typeRoots": ["src/types", "node_modules/@types"]

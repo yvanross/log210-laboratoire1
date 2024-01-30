@@ -4,14 +4,14 @@ import SgbMock from './SgbMock';
 
 chai.use(chaiHttp);
 const expect = chai.expect;
-const should = chai.should();
+import coursesForMock from './data/courses.json';
 
 describe("CourseRouterTest", () => {
   
   it('get all courses', async () => {
-    let mock:SgbMock = new SgbMock('http://localhost:3000');
+    let mock:SgbMock = new SgbMock();
     let data = await mock.getAllCourses();
-    expect(data).to.deep.equal(require('./data/courses.json'));
+    expect(data).to.deep.equal( { message: 'Success', data: coursesForMock});
   }, 10000);
   
 });
